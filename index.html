@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahnoor Yasin - AI Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <!---------------header----------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education Qualification</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header_text">
+                <p>Hello, Welcome</p>
+                <h1>This is <span>Mahnoor Yasin!</span></h1>
+                <h2>An AI enthusiast pursuing a degree in Artificial Intelligence,<br> passionate about AI research and
+                    development.</h2>
+               <!---- <img src="Images/background_hijabi-2.png" class="center-image">--->
+            </div>
+
+        </div>
+    </div>
+
+    <!---------------about me----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/MyPic.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h2 class="text">
+                        I am Mahnoor Yasin, an ambitious student of Artificial Intelligence at Ghulam Ishaq khan
+                        Institute of
+                        engineering Science and Technology.
+                        Driven by a deep passion for AI, I am constantly expanding my skill set and knowledge.
+                        I look forward to contributing to AI development and research, aiming to innovate and
+                        push the boundaries of what's possible in this exciting field. I am particularly interested in
+                        exploring
+                        how AI can be harnessed to solve pressing global challenges and improve quality of life.
+                    </h2>
+
+                    <a href="Images/Mahnoor Yasin.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!---------------skills----------->
+    <div id="skills">
+        <div class="container">
+                <h1 class="heading">Skills</h1>
+                <div class="skill-list">
+                    <div class="skill">
+                        <img src="Images/sql.png">
+                        <div class="layer">
+                            <h3>SQL</h3>
+                            <p>Utilizing SQL for sophisticated data management and manipulation, ensuring optimal database performance.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="Images/cpp.png">
+                        <div class="layer">
+                            <h3>Cpp</h3>
+                            <p>Mastering the intricacies of this powerful programming language to build robust and efficient software solutions.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="Images/python.png">
+                        <div class="layer">
+                            <h3>Python</h3>
+                            <p> Leveraging the versatility of Python for data analysis, machine learning, and AI development.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="Images/machinelearning.png">
+                        <div class="layer">
+                            <h3>Machine Learning</h3>
+                            <p>Harnessing the power of machine learning to uncover patterns and insights from data, driving innovative solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+<!----------Education qualification---------->
+<div id="education">
+    <div class="container">
+        <h1 class="edu_heading">Education Qualification</h1>
+
+        <div class="education-item">
+            <h2 class="degree">Bachelor's Degree in Artificial Intelligence</h2>
+            <p class="date">Sep 2022 - 2026</p>
+            <p class="university">Ghulam Ishaq Khan Institute of Engineering Sciences and Technology</p>
+            <p class="cgpa">CGPA: 3.75</p>
+        </div>
+
+        <div class="education-item">
+            <h2 class="degree">Intermediate  -  Pre Engineering </h2>
+            <p class="date">2020 - 2022</p>
+            <p class="university">Quaid-e-Azam Public School and Girls College</p>
+            <p class="Grade">Grade: A+</p>
+        </div>
+    </div>
+</div>
+
+<!----------Contact me--------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fas fa-paper-plane"></i>mahnooryasin660@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 1234678911</p>
+                <div class="social-icon">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mahnoor-yasin-037311301/"><i class="fab fa-linkedin"></i></a>
+                </div>
+
+            </div>
+            <div class="contact-form">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Messege" rows="8"placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copywrite">
+
+    </div>
+</div>
+
+<!-------------JavaScript for responsiveness----------->
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+
+    function openmenu()
+    {
+        sidemenu.style.right="0";
+    }
+
+    function closemenu()
+    {
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxbzsAOoJdXBLK0Z_LbMy2XfToa9w5KVILvhE6t2db3ws33G8UJ0aKeT4S8yZ9Bnf3ruw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000
+            )
+            form.reset()
+            })
+            .catch(error => console.error('Error!', error.message));
+    });
+</script>
+  </script>
+
+</body>
+
+</html>
