@@ -1,18 +1,39 @@
-## ProgrammersTech Repository
+# Portfolio Website Project
 
-Welcome to the ProgrammersTech repository, where I document and showcase the tasks assigned to me during my web development internship. This repository serves as a comprehensive record of my progress and accomplishments throughout the internship period.
+## Description
 
-### Repository Contents
+This repository contains the project files for my portfolio website, created using HTML, CSS, and a bit of JavaScript. The website showcases my skills, education, and background as an AI enthusiast. It serves as an online resume and a personal introduction for anyone interested in my work and capabilities.
 
-Within this repository, you will find:
+### Features
 
-- **Task Documentation**: Detailed descriptions and specifications of each task assigned to me during the internship.
-- **Code Implementations**: The code I have written to fulfill the requirements of each task, organized into logical directories and files.
-- **Project Milestones**: Updates and milestones achieved during the internship, highlighting key learning points and challenges overcome.
-- **Documentation**: Any relevant documentation, including project outlines, technical specifications, and README files for clarity and ease of understanding.
+- **Front-End Only**: This project focuses solely on the front-end, providing a visually appealing and responsive user interface.
+- **Google Sheets Integration**: The contact form submissions are sent directly to a Google Sheet, allowing easy management and collection of responses.
+- **Responsive Design**: The website is designed to be fully responsive, ensuring a seamless experience on both desktop and mobile devices.
 
-### Purpose
+### Sections
 
-The purpose of this repository is twofold: to showcase my proficiency in web development technologies and to provide a transparent record of my learning journey and practical achievements. By maintaining this repository, I aim to demonstrate my ability to apply theoretical knowledge to real-world scenarios and to continuously improve my skills in web development.
+1. **Home**: The landing section of the website, welcoming visitors and providing a brief introduction.
+2. **About Me**: Detailed information about my background, education, and passion for artificial intelligence.
+3. **Skills**: A showcase of my technical skills, presented with visually engaging elements.
+4. **Education Qualification**: A detailed overview of my academic qualifications, including institutions attended and grades achieved.
+5. **Contact Me**: A contact form for visitors to reach out, with submissions being collected in a Google Sheet.
 
-Repository Link: https://github.com/MahnoorYasin/ProgrammersTech
+### Technologies Used
+
+- **HTML**: For the structure and layout of the web pages.
+- **CSS**: For styling and visual enhancements, including the use of Flexbox and Grid for layout management.
+- **JavaScript**: For interactive elements such as the navigation menu and form submission handling.
+
+### How to Use
+
+1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+   git clone https://github.com/your-username/your-repository-name.git
+
+2. **Open the Project**: Navigate to the project directory and open the `index.html` file in your web browser to view the website.
+
+3. **Customize**: You can customize the content by editing the HTML and CSS files according to your needs.
+
+### Future Enhancements
+
+- **Back-End Integration**: Potentially adding a back-end to handle form submissions and store data in a database.
+- **Enhanced Interactivity**: Implementing more interactive features using JavaScript and modern web technologies.
