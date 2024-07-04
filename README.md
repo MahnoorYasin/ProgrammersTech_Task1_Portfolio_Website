@@ -24,15 +24,9 @@ This repository contains the project files for my portfolio website, created usi
 - **CSS**: For styling and visual enhancements, including the use of Flexbox and Grid for layout management.
 - **JavaScript**: For interactive elements such as the navigation menu and form submission handling.
 
-### How to Use
+### Website 
 
-1. **Clone the Repository**: Clone this repository to your local machine using the following command:
-   git clone https://github.com/your-username/your-repository-name.git
-
-2. **Open the Project**: Navigate to the project directory and open the `index.html` file in your web browser to view the website.
-
-3. **Customize**: You can customize the content by editing the HTML and CSS files according to your needs.
-
+1. **Link of the site to Visit**:https://mahnooryasinportfolio.netlify.app/
 ### Future Enhancements
 
 - **Back-End Integration**: Potentially adding a back-end to handle form submissions and store data in a database.
